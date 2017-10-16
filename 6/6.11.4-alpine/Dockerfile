@@ -8,6 +8,7 @@ RUN apk upgrade --no-cache \
     && apk add --no-cache \
         libstdc++ \
         git \
+        openssh-client \
     && apk add --no-cache --virtual .build-deps \
         binutils-gold \
         curl \
